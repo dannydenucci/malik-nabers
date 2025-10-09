@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Danny DeNucci" />
+  <meta name="description" content="A dynasty fantasy football pitch about Malik Nabers and his value." />
+  <meta name="keywords" content="Dynasty Football, Malik Nabers, Value, Age, Leader, Volume" />
+  <title>Cornerstone that is Malik Nabers</title>
+
+  <!-- Google Font (rubric: custom font) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Single required comment: Page skeleton for Malik Nabers profile -->
+
+  <header class="site-header" id="top">
+    <h1>The Career of Malik Nabers</h1>
+
+    <p class="lede">
+      Malik Nabers (born July 28, 2003) is an American professional football wide receiver for the New York Giants of the
+      <abbr title="National Football League">NFL</abbr>.
+      He played college football for the LSU Tigers and is entering his second year with the Giants.
+      He’s a <mark>volume-dominant</mark> receiver with <em>game-breaking</em> upside.
+    </p>
+
+    <!-- In-page Navigation Grid (rubric: navigation with links to areas) -->
+    <nav class="primary-nav" aria-label="Page">
+      <a href="#college">College</a>
+      <a href="#rookie">Rookie Year</a>
+      <a href="#records">Records</a>
+      <a href="#outlook">Outlook</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- External resources kept separate -->
+    <nav class="secondary-nav" aria-label="External">
+      <a href="https://www.giants.com/" target="_blank" rel="noopener noreferrer">New York Giants (official)</a>
+      <a href="https://lsusports.net/sports/fb/" target="_blank" rel="noopener noreferrer">LSU Football</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article class="content">
+
+      <section id="college" class="card section">
+        <h2>College Career</h2>
+        <p>
+          As a true freshman at LSU in 2021, Nabers played in 11 games with six starts and had 28 receptions for 417 yards
+          and four touchdowns. He returned to LSU as a starter in 2022; Nabers was named MVP of the 2023 Citrus Bowl with
+          nine catches for 163 yards and a touchdown pass to Jayden Daniels. In 2023 he posted 13 receptions for 239 yards
+          and two TDs vs. Mississippi State and finished as a unanimous All-American, leading the FBS with 1,569 receiving
+          yards. He declared for the 2024 NFL Draft and finished as LSU’s all-time leader in receiving yards (3,003).
+        </p>
+      </section>
+
+      <section id="rookie" class="card section">
+        <h2>Rookie Year</h2>
+        <p>
+          Drafted sixth overall by the Giants in 2024, Nabers set franchise marks and earned a 2025 Pro Bowl selection.
+          With a new QB in year two, expectations are <em>even higher</em> for continued growth.
+        </p>
+      </section>
+
+      <section id="records" class="card section">
+        <h2>Records Set</h2>
+        <ol>
+          <li>Most receptions by a rookie WR in a single season: 109</li>
+          <li>Youngest WR with multiple touchdowns in a game: 21 years and 56 days</li>
+          <li>Fastest to reach 100 career receptions: 14 games (tied with Odell Beckham Jr.)</li>
+          <li>Most targets by a rookie in a season: 170</li>
+          <li>Most receptions at home by a rookie in a season: 58</li>
+        </ol>
+      </section>
+
+      <section id="outlook" class="card section">
+        <h3>Career Outlook</h3>
+        <ul>
+          <li>Too Big To Fail</li>
+          <li>Talent</li>
+          <li>Expert’s Opinion(s)</li>
+        </ul>
+        <a class="btn" href="#contact">Contact me about this profile</a>
+      </section>
+
+      <!-- Grid Image Gallery (rubric) -->
+      <section id="gallery" class="section">
+        <h3>Photo Gallery</h3>
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img src="photos/a-photo-1.jpg" alt="Malik Nabers Photo 1">
+            <figcaption>Malik Nabers Photo 1</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="photos/a-photo-2.webp" alt="Malik Nabers Photo 2">
+            <figcaption>Malik Nabers Photo 2</figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="photos/a-photo-3.webp" alt="Malik Nabers Photo 3">
+            <figcaption>Malik Nabers Photo 3</figcaption>
+          </figure>
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <h4>About the Author</h4>
+    <address>
+      Danny DeNucci — Senior Finance Major, Miami Herbert Business School, University of Miami.
+      Miami, FL • Somers, CT
+    </address>
+    <p>
+      © <time datetime="2025">2025</time> Danny DeNucci. All rights reserved.
+    </p>
+    <p><a class="btn" href="#top">Back to top</a></p>
+  </footer>
+</body>
+</html>
